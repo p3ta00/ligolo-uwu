@@ -1,7 +1,7 @@
 # Ligolo UwU v2
 
 All-in-One Ligolo Manager with direct upload method.
-
+This tool is built of NXC, ensure it have it working prior to use. 
 ## Quick Start
 
 ```bash
