@@ -14,7 +14,7 @@ ligolo-uwu download
 # Start proxy
 ligolo-uwu proxy 443
 
-# Add target and deploy
+# Add target and deploy (machines must be uppercase, I know I know)
 ligolo-uwu add WIN01 <ip> <user> <pass> <c2_ip> 443 winrm
 
 # Add route
