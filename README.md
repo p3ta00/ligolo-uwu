@@ -2,6 +2,9 @@
 
 All-in-One Ligolo Manager with direct upload method.
 This tool is built of NXC, ensure to have it working prior to use. 
+
+May need to ran as sudo depending on user permissions
+
 ## Quick Start
 
 ```bash
