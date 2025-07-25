@@ -69,15 +69,14 @@ ligolo-uwu remove <target_name>       # Remove saved target
 
 ```bash
 # Windows targets
-ligolo-uwu add WIN01 192.168.1.100 administrator 'Password1' 10.10.14.21 443 winrm
-ligolo-uwu add WIN02 192.168.1.100 administrator 'Password1' 10.10.14.21 443 winrm --local-auth
+ligolo-uwu add WIN01 192.168.1.100 administrator 'Password1' 10.10.14.21 443 winrm 
 ligolo-uwu add WIN03 192.168.1.100 user 'Pass123!' 10.10.14.21 443 smb
 
 # Linux targets
 ligolo-uwu add LINUX01 10.10.110.25 root 'toor' 10.10.14.21 443 ssh
 
 # Quick deploy
-ligolo-uwu 192.168.1.100 admin 'pass123' 10.10.14.21 443 winrm --debug
+ligolo-uwu 192.168.1.100 admin 'pass123' 10.10.14.21 443 winrm
 
 # Routes
 ligolo-uwu route 172.16.70.0          # Add /24 route
